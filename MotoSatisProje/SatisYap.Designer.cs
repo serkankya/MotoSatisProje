@@ -29,7 +29,6 @@
 		private void InitializeComponent()
 		{
 			this.grpMusteriler = new System.Windows.Forms.GroupBox();
-			this.btnMusteriIptal = new System.Windows.Forms.Button();
 			this.btnMusteriKayit = new System.Windows.Forms.Button();
 			this.txtMusteriAdres = new System.Windows.Forms.TextBox();
 			this.label5 = new System.Windows.Forms.Label();
@@ -56,6 +55,7 @@
 			this.label7 = new System.Windows.Forms.Label();
 			this.cmbUrunler = new System.Windows.Forms.ComboBox();
 			this.label6 = new System.Windows.Forms.Label();
+			this.btnAnaSayfa = new System.Windows.Forms.Button();
 			this.grpMusteriler.SuspendLayout();
 			this.grpSatislar.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.numAdet)).BeginInit();
@@ -63,7 +63,6 @@
 			// 
 			// grpMusteriler
 			// 
-			this.grpMusteriler.Controls.Add(this.btnMusteriIptal);
 			this.grpMusteriler.Controls.Add(this.btnMusteriKayit);
 			this.grpMusteriler.Controls.Add(this.txtMusteriAdres);
 			this.grpMusteriler.Controls.Add(this.label5);
@@ -75,112 +74,105 @@
 			this.grpMusteriler.Controls.Add(this.label2);
 			this.grpMusteriler.Controls.Add(this.txtMusteriAd);
 			this.grpMusteriler.Controls.Add(this.label1);
+			this.grpMusteriler.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
 			this.grpMusteriler.Location = new System.Drawing.Point(12, 12);
 			this.grpMusteriler.Name = "grpMusteriler";
-			this.grpMusteriler.Size = new System.Drawing.Size(351, 380);
+			this.grpMusteriler.Size = new System.Drawing.Size(409, 380);
 			this.grpMusteriler.TabIndex = 0;
 			this.grpMusteriler.TabStop = false;
 			this.grpMusteriler.Text = "Müşteri Bilgileri";
 			// 
-			// btnMusteriIptal
-			// 
-			this.btnMusteriIptal.Location = new System.Drawing.Point(155, 339);
-			this.btnMusteriIptal.Name = "btnMusteriIptal";
-			this.btnMusteriIptal.Size = new System.Drawing.Size(75, 23);
-			this.btnMusteriIptal.TabIndex = 6;
-			this.btnMusteriIptal.Text = "İptal Et";
-			this.btnMusteriIptal.UseVisualStyleBackColor = true;
-			// 
 			// btnMusteriKayit
 			// 
-			this.btnMusteriKayit.Location = new System.Drawing.Point(101, 310);
+			this.btnMusteriKayit.BackColor = System.Drawing.Color.LimeGreen;
+			this.btnMusteriKayit.Location = new System.Drawing.Point(137, 313);
 			this.btnMusteriKayit.Name = "btnMusteriKayit";
-			this.btnMusteriKayit.Size = new System.Drawing.Size(199, 23);
+			this.btnMusteriKayit.Size = new System.Drawing.Size(248, 46);
 			this.btnMusteriKayit.TabIndex = 2;
 			this.btnMusteriKayit.Text = "Müşteriyi Kaydet";
-			this.btnMusteriKayit.UseVisualStyleBackColor = true;
+			this.btnMusteriKayit.UseVisualStyleBackColor = false;
 			this.btnMusteriKayit.Click += new System.EventHandler(this.btnMusteriKayit_Click);
 			// 
 			// txtMusteriAdres
 			// 
-			this.txtMusteriAdres.Location = new System.Drawing.Point(101, 195);
+			this.txtMusteriAdres.Location = new System.Drawing.Point(137, 178);
 			this.txtMusteriAdres.Multiline = true;
 			this.txtMusteriAdres.Name = "txtMusteriAdres";
-			this.txtMusteriAdres.Size = new System.Drawing.Size(199, 100);
+			this.txtMusteriAdres.Size = new System.Drawing.Size(248, 129);
 			this.txtMusteriAdres.TabIndex = 1;
 			// 
 			// label5
 			// 
 			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(19, 198);
+			this.label5.Location = new System.Drawing.Point(75, 178);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(43, 13);
+			this.label5.Size = new System.Drawing.Size(63, 20);
 			this.label5.TabIndex = 0;
 			this.label5.Text = "Adres : ";
 			// 
 			// txtMusteriMail
 			// 
-			this.txtMusteriMail.Location = new System.Drawing.Point(101, 147);
+			this.txtMusteriMail.Location = new System.Drawing.Point(137, 141);
 			this.txtMusteriMail.Name = "txtMusteriMail";
-			this.txtMusteriMail.Size = new System.Drawing.Size(199, 20);
+			this.txtMusteriMail.Size = new System.Drawing.Size(248, 26);
 			this.txtMusteriMail.TabIndex = 1;
 			// 
 			// label4
 			// 
 			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(19, 150);
+			this.label4.Location = new System.Drawing.Point(89, 142);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(35, 13);
+			this.label4.Size = new System.Drawing.Size(49, 20);
 			this.label4.TabIndex = 0;
 			this.label4.Text = "Mail : ";
 			// 
 			// txtMusteriTelefon
 			// 
-			this.txtMusteriTelefon.Location = new System.Drawing.Point(101, 105);
+			this.txtMusteriTelefon.Location = new System.Drawing.Point(137, 106);
 			this.txtMusteriTelefon.Name = "txtMusteriTelefon";
-			this.txtMusteriTelefon.Size = new System.Drawing.Size(199, 20);
+			this.txtMusteriTelefon.Size = new System.Drawing.Size(248, 26);
 			this.txtMusteriTelefon.TabIndex = 1;
 			// 
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(19, 108);
+			this.label3.Location = new System.Drawing.Point(64, 108);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(52, 13);
+			this.label3.Size = new System.Drawing.Size(74, 20);
 			this.label3.TabIndex = 0;
 			this.label3.Text = "Telefon : ";
 			// 
 			// txtMusteriSoyad
 			// 
-			this.txtMusteriSoyad.Location = new System.Drawing.Point(101, 65);
+			this.txtMusteriSoyad.Location = new System.Drawing.Point(137, 72);
 			this.txtMusteriSoyad.Name = "txtMusteriSoyad";
-			this.txtMusteriSoyad.Size = new System.Drawing.Size(199, 20);
+			this.txtMusteriSoyad.Size = new System.Drawing.Size(248, 26);
 			this.txtMusteriSoyad.TabIndex = 1;
 			// 
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(19, 68);
+			this.label2.Location = new System.Drawing.Point(13, 74);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(76, 13);
+			this.label2.Size = new System.Drawing.Size(125, 20);
 			this.label2.TabIndex = 0;
-			this.label2.Text = "Müşteri Soyadı";
+			this.label2.Text = "Müşteri Soyadı : ";
 			// 
 			// txtMusteriAd
 			// 
-			this.txtMusteriAd.Location = new System.Drawing.Point(101, 28);
+			this.txtMusteriAd.Location = new System.Drawing.Point(137, 35);
 			this.txtMusteriAd.Name = "txtMusteriAd";
-			this.txtMusteriAd.Size = new System.Drawing.Size(199, 20);
+			this.txtMusteriAd.Size = new System.Drawing.Size(248, 26);
 			this.txtMusteriAd.TabIndex = 1;
 			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(19, 31);
+			this.label1.Location = new System.Drawing.Point(38, 37);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(59, 13);
+			this.label1.Size = new System.Drawing.Size(100, 20);
 			this.label1.TabIndex = 0;
-			this.label1.Text = "Müşteri Adı";
+			this.label1.Text = "Müşteri Adı : ";
 			// 
 			// grpSatislar
 			// 
@@ -198,18 +190,19 @@
 			this.grpSatislar.Controls.Add(this.label7);
 			this.grpSatislar.Controls.Add(this.cmbUrunler);
 			this.grpSatislar.Controls.Add(this.label6);
-			this.grpSatislar.Location = new System.Drawing.Point(399, 12);
+			this.grpSatislar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.grpSatislar.Location = new System.Drawing.Point(452, 12);
 			this.grpSatislar.Name = "grpSatislar";
-			this.grpSatislar.Size = new System.Drawing.Size(345, 380);
+			this.grpSatislar.Size = new System.Drawing.Size(404, 339);
 			this.grpSatislar.TabIndex = 0;
 			this.grpSatislar.TabStop = false;
 			this.grpSatislar.Text = "Satış Bilgileri";
 			// 
 			// btnMusteriBul
 			// 
-			this.btnMusteriBul.Location = new System.Drawing.Point(111, 68);
+			this.btnMusteriBul.Location = new System.Drawing.Point(137, 63);
 			this.btnMusteriBul.Name = "btnMusteriBul";
-			this.btnMusteriBul.Size = new System.Drawing.Size(120, 23);
+			this.btnMusteriBul.Size = new System.Drawing.Size(240, 33);
 			this.btnMusteriBul.TabIndex = 7;
 			this.btnMusteriBul.Text = "Müşteri Bul";
 			this.btnMusteriBul.UseVisualStyleBackColor = true;
@@ -217,46 +210,48 @@
 			// 
 			// btnIptalEt
 			// 
-			this.btnIptalEt.Location = new System.Drawing.Point(156, 336);
+			this.btnIptalEt.BackColor = System.Drawing.Color.OrangeRed;
+			this.btnIptalEt.Location = new System.Drawing.Point(137, 297);
 			this.btnIptalEt.Name = "btnIptalEt";
-			this.btnIptalEt.Size = new System.Drawing.Size(75, 23);
+			this.btnIptalEt.Size = new System.Drawing.Size(240, 36);
 			this.btnIptalEt.TabIndex = 6;
 			this.btnIptalEt.Text = "İptal Et";
-			this.btnIptalEt.UseVisualStyleBackColor = true;
+			this.btnIptalEt.UseVisualStyleBackColor = false;
+			this.btnIptalEt.Click += new System.EventHandler(this.btnIptalEt_Click);
 			// 
 			// btnSatisYap
 			// 
-			this.btnSatisYap.Location = new System.Drawing.Point(124, 287);
+			this.btnSatisYap.BackColor = System.Drawing.Color.LimeGreen;
+			this.btnSatisYap.Location = new System.Drawing.Point(137, 254);
 			this.btnSatisYap.Name = "btnSatisYap";
-			this.btnSatisYap.Size = new System.Drawing.Size(131, 23);
+			this.btnSatisYap.Size = new System.Drawing.Size(240, 37);
 			this.btnSatisYap.TabIndex = 5;
 			this.btnSatisYap.Text = "Satışı Tamamla";
-			this.btnSatisYap.UseVisualStyleBackColor = true;
+			this.btnSatisYap.UseVisualStyleBackColor = false;
 			this.btnSatisYap.Click += new System.EventHandler(this.btnSatisYap_Click);
 			// 
 			// lblToplamTutar
 			// 
 			this.lblToplamTutar.AutoSize = true;
-			this.lblToplamTutar.Location = new System.Drawing.Point(109, 260);
+			this.lblToplamTutar.Location = new System.Drawing.Point(133, 221);
 			this.lblToplamTutar.Name = "lblToplamTutar";
-			this.lblToplamTutar.Size = new System.Drawing.Size(41, 13);
+			this.lblToplamTutar.Size = new System.Drawing.Size(0, 20);
 			this.lblToplamTutar.TabIndex = 4;
-			this.lblToplamTutar.Text = "label12";
 			// 
 			// label11
 			// 
 			this.label11.AutoSize = true;
-			this.label11.Location = new System.Drawing.Point(20, 260);
+			this.label11.Location = new System.Drawing.Point(17, 219);
 			this.label11.Name = "label11";
-			this.label11.Size = new System.Drawing.Size(79, 13);
+			this.label11.Size = new System.Drawing.Size(114, 20);
 			this.label11.TabIndex = 3;
 			this.label11.Text = "Toplam Tutar : ";
 			// 
 			// numAdet
 			// 
-			this.numAdet.Location = new System.Drawing.Point(112, 195);
+			this.numAdet.Location = new System.Drawing.Point(137, 179);
 			this.numAdet.Name = "numAdet";
-			this.numAdet.Size = new System.Drawing.Size(120, 20);
+			this.numAdet.Size = new System.Drawing.Size(240, 26);
 			this.numAdet.TabIndex = 2;
 			// 
 			// cmbSatisTur
@@ -268,61 +263,61 @@
             "Kredi Kartı",
             "Havale/EFT",
             "Kripto"});
-			this.cmbSatisTur.Location = new System.Drawing.Point(111, 150);
+			this.cmbSatisTur.Location = new System.Drawing.Point(137, 141);
 			this.cmbSatisTur.Name = "cmbSatisTur";
-			this.cmbSatisTur.Size = new System.Drawing.Size(121, 21);
+			this.cmbSatisTur.Size = new System.Drawing.Size(240, 28);
 			this.cmbSatisTur.TabIndex = 1;
 			// 
 			// label10
 			// 
 			this.label10.AutoSize = true;
-			this.label10.Location = new System.Drawing.Point(20, 198);
+			this.label10.Location = new System.Drawing.Point(76, 181);
 			this.label10.Name = "label10";
-			this.label10.Size = new System.Drawing.Size(38, 13);
+			this.label10.Size = new System.Drawing.Size(55, 20);
 			this.label10.TabIndex = 0;
 			this.label10.Text = "Adet : ";
 			// 
 			// label9
 			// 
 			this.label9.AutoSize = true;
-			this.label9.Location = new System.Drawing.Point(20, 153);
+			this.label9.Location = new System.Drawing.Point(38, 143);
 			this.label9.Name = "label9";
-			this.label9.Size = new System.Drawing.Size(64, 13);
+			this.label9.Size = new System.Drawing.Size(93, 20);
 			this.label9.TabIndex = 0;
 			this.label9.Text = "Satış Türü : ";
 			// 
 			// cmbCalisanlar
 			// 
 			this.cmbCalisanlar.FormattingEnabled = true;
-			this.cmbCalisanlar.Location = new System.Drawing.Point(111, 108);
+			this.cmbCalisanlar.Location = new System.Drawing.Point(137, 102);
 			this.cmbCalisanlar.Name = "cmbCalisanlar";
-			this.cmbCalisanlar.Size = new System.Drawing.Size(121, 21);
+			this.cmbCalisanlar.Size = new System.Drawing.Size(240, 28);
 			this.cmbCalisanlar.TabIndex = 1;
 			// 
 			// label8
 			// 
 			this.label8.AutoSize = true;
-			this.label8.Location = new System.Drawing.Point(20, 111);
+			this.label8.Location = new System.Drawing.Point(3, 106);
 			this.label8.Name = "label8";
-			this.label8.Size = new System.Drawing.Size(41, 13);
+			this.label8.Size = new System.Drawing.Size(128, 20);
 			this.label8.TabIndex = 0;
-			this.label8.Text = "Çalışan";
+			this.label8.Text = "Çalışan Seçiniz : ";
 			// 
 			// label7
 			// 
 			this.label7.AutoSize = true;
-			this.label7.Location = new System.Drawing.Point(20, 68);
+			this.label7.Location = new System.Drawing.Point(3, 68);
 			this.label7.Name = "label7";
-			this.label7.Size = new System.Drawing.Size(41, 13);
+			this.label7.Size = new System.Drawing.Size(128, 20);
 			this.label7.TabIndex = 0;
-			this.label7.Text = "Müşteri";
+			this.label7.Text = "Müşteri Seçiniz : ";
 			// 
 			// cmbUrunler
 			// 
 			this.cmbUrunler.FormattingEnabled = true;
-			this.cmbUrunler.Location = new System.Drawing.Point(111, 28);
+			this.cmbUrunler.Location = new System.Drawing.Point(137, 29);
 			this.cmbUrunler.Name = "cmbUrunler";
-			this.cmbUrunler.Size = new System.Drawing.Size(121, 21);
+			this.cmbUrunler.Size = new System.Drawing.Size(240, 28);
 			this.cmbUrunler.TabIndex = 1;
 			// 
 			// label6
@@ -330,19 +325,34 @@
 			this.label6.AutoSize = true;
 			this.label6.Location = new System.Drawing.Point(20, 31);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(30, 13);
+			this.label6.Size = new System.Drawing.Size(111, 20);
 			this.label6.TabIndex = 0;
-			this.label6.Text = "Ürün";
+			this.label6.Text = "Ürün Seçiniz : ";
+			// 
+			// btnAnaSayfa
+			// 
+			this.btnAnaSayfa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.btnAnaSayfa.Location = new System.Drawing.Point(697, 357);
+			this.btnAnaSayfa.Name = "btnAnaSayfa";
+			this.btnAnaSayfa.Size = new System.Drawing.Size(159, 40);
+			this.btnAnaSayfa.TabIndex = 1;
+			this.btnAnaSayfa.Text = "Ana Sayfaya Dön";
+			this.btnAnaSayfa.UseVisualStyleBackColor = true;
+			this.btnAnaSayfa.Click += new System.EventHandler(this.btnAnaSayfa_Click);
 			// 
 			// SatisYap
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.BackColor = System.Drawing.Color.LightSalmon;
+			this.ClientSize = new System.Drawing.Size(865, 405);
+			this.Controls.Add(this.btnAnaSayfa);
 			this.Controls.Add(this.grpSatislar);
 			this.Controls.Add(this.grpMusteriler);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "SatisYap";
-			this.Text = "SatisYap";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "Satış Yap";
 			this.Load += new System.EventHandler(this.SatisYap_Load);
 			this.grpMusteriler.ResumeLayout(false);
 			this.grpMusteriler.PerformLayout();
@@ -380,8 +390,8 @@
 		private System.Windows.Forms.Button btnSatisYap;
 		private System.Windows.Forms.Label lblToplamTutar;
 		private System.Windows.Forms.Label label11;
-		private System.Windows.Forms.Button btnMusteriIptal;
 		private System.Windows.Forms.Button btnIptalEt;
 		private System.Windows.Forms.Button btnMusteriBul;
+		private System.Windows.Forms.Button btnAnaSayfa;
 	}
 }

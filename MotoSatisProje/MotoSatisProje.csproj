@@ -64,6 +64,12 @@
     <Compile Include="CalisanKayit.Designer.cs">
       <DependentUpon>CalisanKayit.cs</DependentUpon>
     </Compile>
+    <Compile Include="MusteriBilgisiGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MusteriBilgisiGuncelle.Designer.cs">
+      <DependentUpon>MusteriBilgisiGuncelle.cs</DependentUpon>
+    </Compile>
     <Compile Include="MusteriBul.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +123,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CalisanKayit.resx">
       <DependentUpon>CalisanKayit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusteriBilgisiGuncelle.resx">
+      <DependentUpon>MusteriBilgisiGuncelle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MusteriBul.resx">
       <DependentUpon>MusteriBul.cs</DependentUpon>

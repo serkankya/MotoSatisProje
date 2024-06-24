@@ -44,5 +44,15 @@ namespace MotoSatisProje
 			satisYap.Show();
 			this.Hide();
 		}
+
+		private void btnCikis_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+
+		private void AnaSayfa_Load(object sender, EventArgs e)
+		{
+			lblZaman.Text = DateTime.Now.ToShortDateString();
+		}
 	}
 }

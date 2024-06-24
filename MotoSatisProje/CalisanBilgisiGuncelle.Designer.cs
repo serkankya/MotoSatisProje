@@ -44,114 +44,130 @@
 			// 
 			// cmbPozisyon
 			// 
+			this.cmbPozisyon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
 			this.cmbPozisyon.FormattingEnabled = true;
 			this.cmbPozisyon.Items.AddRange(new object[] {
             "Müdür",
             "Mağaza Sorumlusu",
             "Satış Sorumlusu",
             "Kasiyer"});
-			this.cmbPozisyon.Location = new System.Drawing.Point(131, 94);
+			this.cmbPozisyon.Location = new System.Drawing.Point(92, 93);
 			this.cmbPozisyon.Name = "cmbPozisyon";
-			this.cmbPozisyon.Size = new System.Drawing.Size(121, 21);
+			this.cmbPozisyon.Size = new System.Drawing.Size(293, 28);
 			this.cmbPozisyon.TabIndex = 16;
 			// 
 			// txtTelefon
 			// 
-			this.txtTelefon.Location = new System.Drawing.Point(131, 122);
+			this.txtTelefon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.txtTelefon.Location = new System.Drawing.Point(92, 131);
 			this.txtTelefon.Name = "txtTelefon";
-			this.txtTelefon.Size = new System.Drawing.Size(100, 20);
+			this.txtTelefon.Size = new System.Drawing.Size(293, 26);
 			this.txtTelefon.TabIndex = 12;
 			// 
 			// label4
 			// 
 			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(59, 125);
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label4.Location = new System.Drawing.Point(21, 134);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(43, 13);
+			this.label4.Size = new System.Drawing.Size(74, 20);
 			this.label4.TabIndex = 7;
-			this.label4.Text = "Telefon";
+			this.label4.Text = "Telefon : ";
 			// 
 			// txtSoyad
 			// 
-			this.txtSoyad.Location = new System.Drawing.Point(131, 68);
+			this.txtSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.txtSoyad.Location = new System.Drawing.Point(92, 54);
 			this.txtSoyad.Name = "txtSoyad";
-			this.txtSoyad.Size = new System.Drawing.Size(100, 20);
+			this.txtSoyad.Size = new System.Drawing.Size(293, 26);
 			this.txtSoyad.TabIndex = 13;
 			// 
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(59, 71);
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label2.Location = new System.Drawing.Point(29, 57);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(37, 13);
+			this.label2.Size = new System.Drawing.Size(66, 20);
 			this.label2.TabIndex = 8;
-			this.label2.Text = "Soyad";
+			this.label2.Text = "Soyad : ";
 			// 
 			// txtMail
 			// 
-			this.txtMail.Location = new System.Drawing.Point(131, 154);
+			this.txtMail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.txtMail.Location = new System.Drawing.Point(92, 173);
 			this.txtMail.Name = "txtMail";
-			this.txtMail.Size = new System.Drawing.Size(100, 20);
+			this.txtMail.Size = new System.Drawing.Size(293, 26);
 			this.txtMail.TabIndex = 14;
 			// 
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(59, 99);
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label3.Location = new System.Drawing.Point(11, 96);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(49, 13);
+			this.label3.Size = new System.Drawing.Size(84, 20);
 			this.label3.TabIndex = 9;
-			this.label3.Text = "Pozisyon";
+			this.label3.Text = "Pozisyon : ";
 			// 
 			// label5
 			// 
 			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(59, 157);
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label5.Location = new System.Drawing.Point(46, 176);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(26, 13);
+			this.label5.Size = new System.Drawing.Size(49, 20);
 			this.label5.TabIndex = 10;
-			this.label5.Text = "Mail";
+			this.label5.Text = "Mail : ";
 			// 
 			// txtAd
 			// 
-			this.txtAd.Location = new System.Drawing.Point(131, 42);
+			this.txtAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.txtAd.Location = new System.Drawing.Point(92, 16);
 			this.txtAd.Name = "txtAd";
-			this.txtAd.Size = new System.Drawing.Size(100, 20);
+			this.txtAd.Size = new System.Drawing.Size(293, 26);
 			this.txtAd.TabIndex = 15;
 			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(59, 45);
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label1.Location = new System.Drawing.Point(54, 18);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(29, 13);
+			this.label1.Size = new System.Drawing.Size(41, 20);
 			this.label1.TabIndex = 11;
 			this.label1.Text = "Ad : ";
 			// 
 			// btnGuncelle
 			// 
-			this.btnGuncelle.Location = new System.Drawing.Point(146, 180);
+			this.btnGuncelle.BackColor = System.Drawing.Color.LawnGreen;
+			this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.btnGuncelle.Location = new System.Drawing.Point(92, 215);
 			this.btnGuncelle.Name = "btnGuncelle";
-			this.btnGuncelle.Size = new System.Drawing.Size(75, 23);
+			this.btnGuncelle.Size = new System.Drawing.Size(293, 40);
 			this.btnGuncelle.TabIndex = 17;
 			this.btnGuncelle.Text = "Güncelle";
-			this.btnGuncelle.UseVisualStyleBackColor = true;
+			this.btnGuncelle.UseVisualStyleBackColor = false;
 			this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
 			// 
 			// btnIptalEt
 			// 
-			this.btnIptalEt.Location = new System.Drawing.Point(146, 209);
+			this.btnIptalEt.BackColor = System.Drawing.Color.OrangeRed;
+			this.btnIptalEt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.btnIptalEt.Location = new System.Drawing.Point(92, 261);
 			this.btnIptalEt.Name = "btnIptalEt";
-			this.btnIptalEt.Size = new System.Drawing.Size(75, 23);
+			this.btnIptalEt.Size = new System.Drawing.Size(293, 38);
 			this.btnIptalEt.TabIndex = 18;
 			this.btnIptalEt.Text = "İptal Et";
-			this.btnIptalEt.UseVisualStyleBackColor = true;
+			this.btnIptalEt.UseVisualStyleBackColor = false;
+			this.btnIptalEt.Click += new System.EventHandler(this.btnIptalEt_Click);
 			// 
 			// CalisanBilgisiGuncelle
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.BackColor = System.Drawing.Color.SandyBrown;
+			this.ClientSize = new System.Drawing.Size(412, 313);
 			this.Controls.Add(this.btnIptalEt);
 			this.Controls.Add(this.btnGuncelle);
 			this.Controls.Add(this.cmbPozisyon);
@@ -164,9 +180,10 @@
 			this.Controls.Add(this.label5);
 			this.Controls.Add(this.txtAd);
 			this.Controls.Add(this.label1);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "CalisanBilgisiGuncelle";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "CalisanBilgisiGuncelle";
+			this.Text = "Çalışan Bilgisi Güncelle";
 			this.Load += new System.EventHandler(this.CalisanBilgisiGuncelle_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

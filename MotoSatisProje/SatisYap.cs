@@ -81,7 +81,7 @@ namespace MotoSatisProje
 				{
 					using (SqlDataReader dr = komut.ExecuteReader())
 					{
-						if(dr.Read())
+						if (dr.Read())
 						{
 							decimal urunFiyati = Convert.ToDecimal(dr["Fiyat"]);
 
@@ -131,29 +131,36 @@ namespace MotoSatisProje
 
 		private void btnSatisYap_Click(object sender, EventArgs e)
 		{
-			if(StokDusur() == true)
+			if (!string.IsNullOrEmpty(cmbUrunler.Text) && !string.IsNullOrEmpty(cmbSatisTur.Text) && !string.IsNullOrEmpty(cmbCalisanlar.Text))
 			{
-				FiyatHesapla();
-				lblToplamTutar.Text = toplamTutar.ToString() + " TL";
-
-				using (SqlConnection sql = SqlBaglanti.Baglan())
+				if (StokDusur() == true)
 				{
-					sql.Open();
+					FiyatHesapla();
+					lblToplamTutar.Text = toplamTutar.ToString() + " TL";
 
-					string sorgu = "INSERT INTO Satislar (UrunId,MusteriId,CalisanId,SatisTur,Adet) VALUES (@urunId,@musteriId,@calisanId,@satisTur,@adet)";
-
-					using (SqlCommand komut = new SqlCommand(sorgu, sql))
+					using (SqlConnection sql = SqlBaglanti.Baglan())
 					{
-						komut.Parameters.AddWithValue("@urunId",cmbUrunler.SelectedValue);
-						komut.Parameters.AddWithValue("@musteriId", _gelenMusteriId);
-						komut.Parameters.AddWithValue("@calisanId", cmbCalisanlar.SelectedValue);
-						komut.Parameters.AddWithValue("@satisTur", cmbSatisTur.SelectedItem);
-						komut.Parameters.AddWithValue("@adet", numAdet.Value);
+						sql.Open();
 
-						komut.ExecuteNonQuery();
-						MessageBox.Show("Satış işlemi başarıyla gerçekleştirildi.","Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Information);
+						string sorgu = "INSERT INTO Satislar (UrunId,MusteriId,CalisanId,SatisTur,Adet) VALUES (@urunId,@musteriId,@calisanId,@satisTur,@adet)";
+
+						using (SqlCommand komut = new SqlCommand(sorgu, sql))
+						{
+							komut.Parameters.AddWithValue("@urunId", cmbUrunler.SelectedValue);
+							komut.Parameters.AddWithValue("@musteriId", _gelenMusteriId);
+							komut.Parameters.AddWithValue("@calisanId", cmbCalisanlar.SelectedValue);
+							komut.Parameters.AddWithValue("@satisTur", cmbSatisTur.SelectedItem);
+							komut.Parameters.AddWithValue("@adet", numAdet.Value);
+
+							komut.ExecuteNonQuery();
+							MessageBox.Show("Satış işlemi başarıyla gerçekleştirildi.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+						}
 					}
 				}
+			}
+			else
+			{
+				MessageBox.Show("Lütfen ilgili yerleri doldurunuz!", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 		}
 
@@ -177,13 +184,13 @@ namespace MotoSatisProje
 
 						komut.ExecuteNonQuery();
 
-						MessageBox.Show("Müşteri kaydı başarıyla oluşturuldu.","Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Information);
+						MessageBox.Show("Müşteri kaydı başarıyla oluşturuldu.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
 					}
 				}
 			}
 			else
 			{
-				MessageBox.Show("Lütfen ilgili yerleri doldurunuz!","Uyarı",MessageBoxButtons.OK,MessageBoxIcon.Error);
+				MessageBox.Show("Lütfen ilgili yerleri doldurunuz!", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Error);
 			}
 		}
 
@@ -199,6 +206,18 @@ namespace MotoSatisProje
 		{
 			UrunleriListele();
 			CalisanlariListele();
+		}
+
+		private void btnAnaSayfa_Click(object sender, EventArgs e)
+		{
+			AnaSayfa anaSayfa = new AnaSayfa();
+			anaSayfa.Show();
+			this.Hide();
+		}
+
+		private void btnIptalEt_Click(object sender, EventArgs e)
+		{
+			this.Close();
 		}
 	}
 }

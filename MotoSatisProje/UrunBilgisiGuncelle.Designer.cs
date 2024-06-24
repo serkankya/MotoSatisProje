@@ -46,116 +46,132 @@
 			// 
 			// cmbToptanci
 			// 
+			this.cmbToptanci.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
 			this.cmbToptanci.FormattingEnabled = true;
-			this.cmbToptanci.Location = new System.Drawing.Point(86, 279);
+			this.cmbToptanci.Location = new System.Drawing.Point(111, 301);
 			this.cmbToptanci.Name = "cmbToptanci";
-			this.cmbToptanci.Size = new System.Drawing.Size(121, 21);
+			this.cmbToptanci.Size = new System.Drawing.Size(270, 28);
 			this.cmbToptanci.TabIndex = 13;
 			// 
 			// numStok
 			// 
-			this.numStok.Location = new System.Drawing.Point(86, 231);
+			this.numStok.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.numStok.Location = new System.Drawing.Point(111, 258);
 			this.numStok.Name = "numStok";
-			this.numStok.Size = new System.Drawing.Size(120, 20);
+			this.numStok.Size = new System.Drawing.Size(270, 26);
 			this.numStok.TabIndex = 11;
 			// 
 			// numFiyat
 			// 
 			this.numFiyat.DecimalPlaces = 2;
-			this.numFiyat.Location = new System.Drawing.Point(86, 193);
+			this.numFiyat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.numFiyat.Location = new System.Drawing.Point(111, 212);
 			this.numFiyat.Maximum = new decimal(new int[] {
             9999999,
             0,
             0,
             0});
 			this.numFiyat.Name = "numFiyat";
-			this.numFiyat.Size = new System.Drawing.Size(120, 20);
+			this.numFiyat.Size = new System.Drawing.Size(270, 26);
 			this.numFiyat.TabIndex = 12;
 			// 
 			// label5
 			// 
 			this.label5.AutoSize = true;
-			this.label5.Location = new System.Drawing.Point(21, 282);
+			this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label5.Location = new System.Drawing.Point(36, 304);
 			this.label5.Name = "label5";
-			this.label5.Size = new System.Drawing.Size(52, 13);
+			this.label5.Size = new System.Drawing.Size(82, 20);
 			this.label5.TabIndex = 4;
-			this.label5.Text = "Toptancı ";
+			this.label5.Text = "Toptancı : ";
 			// 
 			// label4
 			// 
 			this.label4.AutoSize = true;
-			this.label4.Location = new System.Drawing.Point(21, 233);
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label4.Location = new System.Drawing.Point(62, 260);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(29, 13);
+			this.label4.Size = new System.Drawing.Size(54, 20);
 			this.label4.TabIndex = 5;
-			this.label4.Text = "Stok";
+			this.label4.Text = "Stok : ";
 			// 
 			// txtAciklama
 			// 
-			this.txtAciklama.Location = new System.Drawing.Point(86, 48);
+			this.txtAciklama.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.txtAciklama.Location = new System.Drawing.Point(111, 63);
 			this.txtAciklama.Multiline = true;
 			this.txtAciklama.Name = "txtAciklama";
-			this.txtAciklama.Size = new System.Drawing.Size(100, 130);
+			this.txtAciklama.Size = new System.Drawing.Size(270, 130);
 			this.txtAciklama.TabIndex = 9;
 			// 
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(21, 195);
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label3.Location = new System.Drawing.Point(60, 214);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(32, 13);
+			this.label3.Size = new System.Drawing.Size(55, 20);
 			this.label3.TabIndex = 6;
-			this.label3.Text = "Fiyat ";
+			this.label3.Text = "Fiyat : ";
 			// 
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(31, 51);
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.label2.Location = new System.Drawing.Point(30, 63);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(59, 13);
+			this.label2.Size = new System.Drawing.Size(85, 20);
 			this.label2.TabIndex = 7;
 			this.label2.Text = "Açıklama : ";
 			// 
 			// txtUrunAdi
 			// 
-			this.txtUrunAdi.Location = new System.Drawing.Point(86, 22);
+			this.txtUrunAdi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.txtUrunAdi.Location = new System.Drawing.Point(111, 22);
 			this.txtUrunAdi.Name = "txtUrunAdi";
-			this.txtUrunAdi.Size = new System.Drawing.Size(100, 20);
+			this.txtUrunAdi.Size = new System.Drawing.Size(270, 26);
 			this.txtUrunAdi.TabIndex = 10;
 			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
+			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
 			this.label1.Location = new System.Drawing.Point(31, 25);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(60, 13);
+			this.label1.Size = new System.Drawing.Size(87, 20);
 			this.label1.TabIndex = 8;
 			this.label1.Text = "Ürün Adı :  ";
 			// 
 			// btnGuncelle
 			// 
-			this.btnGuncelle.Location = new System.Drawing.Point(111, 306);
+			this.btnGuncelle.BackColor = System.Drawing.Color.LimeGreen;
+			this.btnGuncelle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.btnGuncelle.Location = new System.Drawing.Point(111, 344);
 			this.btnGuncelle.Name = "btnGuncelle";
-			this.btnGuncelle.Size = new System.Drawing.Size(75, 23);
+			this.btnGuncelle.Size = new System.Drawing.Size(270, 34);
 			this.btnGuncelle.TabIndex = 14;
 			this.btnGuncelle.Text = "Güncelle";
-			this.btnGuncelle.UseVisualStyleBackColor = true;
+			this.btnGuncelle.UseVisualStyleBackColor = false;
 			this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
 			// 
 			// btnIptalEt
 			// 
-			this.btnIptalEt.Location = new System.Drawing.Point(111, 335);
+			this.btnIptalEt.BackColor = System.Drawing.Color.OrangeRed;
+			this.btnIptalEt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.btnIptalEt.Location = new System.Drawing.Point(111, 384);
 			this.btnIptalEt.Name = "btnIptalEt";
-			this.btnIptalEt.Size = new System.Drawing.Size(75, 23);
+			this.btnIptalEt.Size = new System.Drawing.Size(270, 34);
 			this.btnIptalEt.TabIndex = 15;
 			this.btnIptalEt.Text = "İptal Et";
-			this.btnIptalEt.UseVisualStyleBackColor = true;
+			this.btnIptalEt.UseVisualStyleBackColor = false;
+			this.btnIptalEt.Click += new System.EventHandler(this.btnIptalEt_Click);
 			// 
 			// UrunBilgisiGuncelle
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.BackColor = System.Drawing.Color.SandyBrown;
+			this.ClientSize = new System.Drawing.Size(438, 450);
 			this.Controls.Add(this.btnIptalEt);
 			this.Controls.Add(this.btnGuncelle);
 			this.Controls.Add(this.cmbToptanci);
@@ -168,8 +184,10 @@
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.txtUrunAdi);
 			this.Controls.Add(this.label1);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Name = "UrunBilgisiGuncelle";
-			this.Text = "UrunBilgisiGuncelle";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "Ürün Bilgisi Güncelle";
 			this.Load += new System.EventHandler(this.UrunBilgisiGuncelle_Load);
 			((System.ComponentModel.ISupportInitialize)(this.numStok)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.numFiyat)).EndInit();

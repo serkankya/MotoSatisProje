@@ -78,5 +78,10 @@ namespace MotoSatisProje
 				MessageBox.Show("Lütfen ilgili yerleri doldurunuz!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 			}
 		}
+
+		private void btnIptalEt_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 	}
 }

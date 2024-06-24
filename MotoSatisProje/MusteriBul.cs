@@ -56,5 +56,18 @@ namespace MotoSatisProje
 				MessageBox.Show("Lütfen geçerli bir müşteri seçiniz!","Hata",MessageBoxButtons.OK,MessageBoxIcon.Error);
 			}
 		}
+
+		private void btnVerileriGuncelle_Click(object sender, EventArgs e)
+		{
+			if (_secilenMusteriId > 0)
+			{
+				MusteriBilgisiGuncelle musteriBilgisiGuncelle = new MusteriBilgisiGuncelle(_secilenMusteriId);
+				musteriBilgisiGuncelle.ShowDialog();
+			}
+			else
+			{
+				MessageBox.Show("Lütfen geçerli bir müşteri seçiniz!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
 	}
 }

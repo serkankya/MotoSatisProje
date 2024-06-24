@@ -149,5 +149,12 @@ namespace MotoSatisProje
 		{
 			CalisanlariAra();
 		}
+
+		private void btnAnaSayfa_Click(object sender, EventArgs e)
+		{
+			AnaSayfa anaSayfa = new AnaSayfa();
+			anaSayfa.Show();
+			this.Hide();
+		}
 	}
 }

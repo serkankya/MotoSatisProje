@@ -147,5 +147,12 @@ namespace MotoSatisProje
 				MessageBox.Show("Lütfen öncelikle bir toptancı seçiniz!", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 			}
 		}
+
+		private void btnAnaSayfa_Click(object sender, EventArgs e)
+		{
+			AnaSayfa anaSayfa = new AnaSayfa();
+			anaSayfa.Show();
+			this.Hide();
+		}
 	}
 }
