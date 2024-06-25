@@ -36,7 +36,7 @@ namespace MotoSatisProje
 						cmbUrunler.DataSource = dt;
 
 						cmbUrunler.ValueMember = "UrunId";
-						cmbUrunler.DisplayMember = "UrunAd";
+						cmbUrunler.DisplayMember = "UrunAdi";
 					}
 				}
 			}

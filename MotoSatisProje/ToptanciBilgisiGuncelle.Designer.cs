@@ -95,7 +95,7 @@
 			this.txtMail.Location = new System.Drawing.Point(94, 77);
 			this.txtMail.Name = "txtMail";
 			this.txtMail.Size = new System.Drawing.Size(286, 26);
-			this.txtMail.TabIndex = 4;
+			this.txtMail.TabIndex = 2;
 			// 
 			// txtTelefon
 			// 
@@ -103,7 +103,7 @@
 			this.txtTelefon.Location = new System.Drawing.Point(94, 41);
 			this.txtTelefon.Name = "txtTelefon";
 			this.txtTelefon.Size = new System.Drawing.Size(286, 26);
-			this.txtTelefon.TabIndex = 5;
+			this.txtTelefon.TabIndex = 1;
 			// 
 			// txtFirmaAdi
 			// 
@@ -111,7 +111,7 @@
 			this.txtFirmaAdi.Location = new System.Drawing.Point(94, 7);
 			this.txtFirmaAdi.Name = "txtFirmaAdi";
 			this.txtFirmaAdi.Size = new System.Drawing.Size(286, 26);
-			this.txtFirmaAdi.TabIndex = 6;
+			this.txtFirmaAdi.TabIndex = 0;
 			// 
 			// btnGuncelle
 			// 
@@ -120,7 +120,7 @@
 			this.btnGuncelle.Location = new System.Drawing.Point(94, 252);
 			this.btnGuncelle.Name = "btnGuncelle";
 			this.btnGuncelle.Size = new System.Drawing.Size(286, 30);
-			this.btnGuncelle.TabIndex = 11;
+			this.btnGuncelle.TabIndex = 4;
 			this.btnGuncelle.Text = "Güncelle";
 			this.btnGuncelle.UseVisualStyleBackColor = false;
 			this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
@@ -132,9 +132,10 @@
 			this.btnIptalEt.Location = new System.Drawing.Point(94, 288);
 			this.btnIptalEt.Name = "btnIptalEt";
 			this.btnIptalEt.Size = new System.Drawing.Size(286, 30);
-			this.btnIptalEt.TabIndex = 11;
+			this.btnIptalEt.TabIndex = 5;
 			this.btnIptalEt.Text = "İptal Et";
 			this.btnIptalEt.UseVisualStyleBackColor = false;
+			this.btnIptalEt.Click += new System.EventHandler(this.btnIptalEt_Click);
 			// 
 			// ToptanciBilgisiGuncelle
 			// 

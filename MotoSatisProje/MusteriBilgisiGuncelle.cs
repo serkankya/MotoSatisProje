@@ -55,7 +55,7 @@ namespace MotoSatisProje
 				{
 					sql.Open();
 
-					string sorgu = "UPDATE Musteriler SET Ad = @ad , Soyad = @soyad , Telefon = @telefon , Mail = @mail , Adres = @adres";
+					string sorgu = "UPDATE Musteriler SET Ad = @ad , Soyad = @soyad , Telefon = @telefon , Mail = @mail , Adres = @adres WHERE MusteriId = @musteriId";
 
 					using (SqlCommand komut = new SqlCommand(sorgu, sql))
 					{
@@ -64,6 +64,7 @@ namespace MotoSatisProje
 						komut.Parameters.AddWithValue("@mail", txtMusteriMail.Text);
 						komut.Parameters.AddWithValue("@adres", txtMusteriAdres.Text);
 						komut.Parameters.AddWithValue("@telefon", txtMusteriTelefon.Text);
+						komut.Parameters.AddWithValue("@musteriId", _gelenMusteriId);
 
 						komut.ExecuteNonQuery();
 

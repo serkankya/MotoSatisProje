@@ -62,7 +62,7 @@ namespace MotoSatisProje
 					{
 						if (dr.Read())
 						{
-							txtUrunAdi.Text = dr["UrunAd"].ToString();
+							txtUrunAdi.Text = dr["UrunAdi"].ToString();
 							txtAciklama.Text = dr["Aciklama"].ToString();
 							numFiyat.Value = Convert.ToDecimal(dr["Fiyat"]);
 							numStok.Value = Convert.ToInt32(dr["Stok"]);
@@ -81,7 +81,7 @@ namespace MotoSatisProje
 				{
 					sql.Open();
 
-					string sorgu = "UPDATE Urunler SET ToptanciId = @toptanciId , Fiyat = @fiyat , Aciklama = @aciklama, Stok = @stok , UrunAd = @urunAd WHERE UrunId = @urunId";
+					string sorgu = "UPDATE Urunler SET ToptanciId = @toptanciId , Fiyat = @fiyat , Aciklama = @aciklama, Stok = @stok , UrunAdi = @urunAd WHERE UrunId = @urunId";
 
 					using (SqlCommand komut = new SqlCommand(sorgu, sql))
 					{

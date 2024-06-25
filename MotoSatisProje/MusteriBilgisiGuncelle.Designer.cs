@@ -49,7 +49,7 @@
 			this.txtMusteriAdres.Multiline = true;
 			this.txtMusteriAdres.Name = "txtMusteriAdres";
 			this.txtMusteriAdres.Size = new System.Drawing.Size(262, 125);
-			this.txtMusteriAdres.TabIndex = 7;
+			this.txtMusteriAdres.TabIndex = 4;
 			// 
 			// label5
 			// 
@@ -67,7 +67,7 @@
 			this.txtMusteriMail.Location = new System.Drawing.Point(129, 123);
 			this.txtMusteriMail.Name = "txtMusteriMail";
 			this.txtMusteriMail.Size = new System.Drawing.Size(262, 26);
-			this.txtMusteriMail.TabIndex = 8;
+			this.txtMusteriMail.TabIndex = 3;
 			// 
 			// label4
 			// 
@@ -85,7 +85,7 @@
 			this.txtMusteriTelefon.Location = new System.Drawing.Point(129, 88);
 			this.txtMusteriTelefon.Name = "txtMusteriTelefon";
 			this.txtMusteriTelefon.Size = new System.Drawing.Size(262, 26);
-			this.txtMusteriTelefon.TabIndex = 9;
+			this.txtMusteriTelefon.TabIndex = 2;
 			// 
 			// label3
 			// 
@@ -103,7 +103,7 @@
 			this.txtMusteriSoyad.Location = new System.Drawing.Point(129, 54);
 			this.txtMusteriSoyad.Name = "txtMusteriSoyad";
 			this.txtMusteriSoyad.Size = new System.Drawing.Size(262, 26);
-			this.txtMusteriSoyad.TabIndex = 10;
+			this.txtMusteriSoyad.TabIndex = 1;
 			// 
 			// label2
 			// 
@@ -121,7 +121,7 @@
 			this.txtMusteriAd.Location = new System.Drawing.Point(129, 17);
 			this.txtMusteriAd.Name = "txtMusteriAd";
 			this.txtMusteriAd.Size = new System.Drawing.Size(262, 26);
-			this.txtMusteriAd.TabIndex = 11;
+			this.txtMusteriAd.TabIndex = 0;
 			// 
 			// label1
 			// 
@@ -140,7 +140,7 @@
 			this.btnGuncelle.Location = new System.Drawing.Point(129, 290);
 			this.btnGuncelle.Name = "btnGuncelle";
 			this.btnGuncelle.Size = new System.Drawing.Size(262, 32);
-			this.btnGuncelle.TabIndex = 12;
+			this.btnGuncelle.TabIndex = 5;
 			this.btnGuncelle.Text = "Güncelle";
 			this.btnGuncelle.UseVisualStyleBackColor = false;
 			this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
@@ -152,7 +152,7 @@
 			this.btnIptal.Location = new System.Drawing.Point(129, 328);
 			this.btnIptal.Name = "btnIptal";
 			this.btnIptal.Size = new System.Drawing.Size(262, 31);
-			this.btnIptal.TabIndex = 12;
+			this.btnIptal.TabIndex = 6;
 			this.btnIptal.Text = "İptal Et";
 			this.btnIptal.UseVisualStyleBackColor = false;
 			this.btnIptal.Click += new System.EventHandler(this.btnIptal_Click);

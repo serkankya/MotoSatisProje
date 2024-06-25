@@ -58,8 +58,8 @@ namespace MotoSatisProje
 
 		private void GirisYap_Load(object sender, EventArgs e)
 		{
-			txtKullaniciAdi.Text = "Tester";
-			txtSifre.Text = "tester_74";
+			//txtKullaniciAdi.Text = "Tester";
+			//txtSifre.Text = "tester_74";
 		}
 	}
 }

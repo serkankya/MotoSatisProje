@@ -88,7 +88,7 @@
 			this.btnMusteriKayit.Location = new System.Drawing.Point(137, 313);
 			this.btnMusteriKayit.Name = "btnMusteriKayit";
 			this.btnMusteriKayit.Size = new System.Drawing.Size(248, 46);
-			this.btnMusteriKayit.TabIndex = 2;
+			this.btnMusteriKayit.TabIndex = 5;
 			this.btnMusteriKayit.Text = "Müşteriyi Kaydet";
 			this.btnMusteriKayit.UseVisualStyleBackColor = false;
 			this.btnMusteriKayit.Click += new System.EventHandler(this.btnMusteriKayit_Click);
@@ -99,7 +99,7 @@
 			this.txtMusteriAdres.Multiline = true;
 			this.txtMusteriAdres.Name = "txtMusteriAdres";
 			this.txtMusteriAdres.Size = new System.Drawing.Size(248, 129);
-			this.txtMusteriAdres.TabIndex = 1;
+			this.txtMusteriAdres.TabIndex = 4;
 			// 
 			// label5
 			// 
@@ -115,7 +115,7 @@
 			this.txtMusteriMail.Location = new System.Drawing.Point(137, 141);
 			this.txtMusteriMail.Name = "txtMusteriMail";
 			this.txtMusteriMail.Size = new System.Drawing.Size(248, 26);
-			this.txtMusteriMail.TabIndex = 1;
+			this.txtMusteriMail.TabIndex = 3;
 			// 
 			// label4
 			// 
@@ -131,7 +131,7 @@
 			this.txtMusteriTelefon.Location = new System.Drawing.Point(137, 106);
 			this.txtMusteriTelefon.Name = "txtMusteriTelefon";
 			this.txtMusteriTelefon.Size = new System.Drawing.Size(248, 26);
-			this.txtMusteriTelefon.TabIndex = 1;
+			this.txtMusteriTelefon.TabIndex = 2;
 			// 
 			// label3
 			// 
@@ -163,7 +163,7 @@
 			this.txtMusteriAd.Location = new System.Drawing.Point(137, 35);
 			this.txtMusteriAd.Name = "txtMusteriAd";
 			this.txtMusteriAd.Size = new System.Drawing.Size(248, 26);
-			this.txtMusteriAd.TabIndex = 1;
+			this.txtMusteriAd.TabIndex = 0;
 			// 
 			// label1
 			// 
@@ -203,7 +203,7 @@
 			this.btnMusteriBul.Location = new System.Drawing.Point(137, 63);
 			this.btnMusteriBul.Name = "btnMusteriBul";
 			this.btnMusteriBul.Size = new System.Drawing.Size(240, 33);
-			this.btnMusteriBul.TabIndex = 7;
+			this.btnMusteriBul.TabIndex = 1;
 			this.btnMusteriBul.Text = "Müşteri Bul";
 			this.btnMusteriBul.UseVisualStyleBackColor = true;
 			this.btnMusteriBul.Click += new System.EventHandler(this.btnMusteriBul_Click);
@@ -252,7 +252,7 @@
 			this.numAdet.Location = new System.Drawing.Point(137, 179);
 			this.numAdet.Name = "numAdet";
 			this.numAdet.Size = new System.Drawing.Size(240, 26);
-			this.numAdet.TabIndex = 2;
+			this.numAdet.TabIndex = 4;
 			// 
 			// cmbSatisTur
 			// 
@@ -266,7 +266,7 @@
 			this.cmbSatisTur.Location = new System.Drawing.Point(137, 141);
 			this.cmbSatisTur.Name = "cmbSatisTur";
 			this.cmbSatisTur.Size = new System.Drawing.Size(240, 28);
-			this.cmbSatisTur.TabIndex = 1;
+			this.cmbSatisTur.TabIndex = 3;
 			// 
 			// label10
 			// 
@@ -292,7 +292,7 @@
 			this.cmbCalisanlar.Location = new System.Drawing.Point(137, 102);
 			this.cmbCalisanlar.Name = "cmbCalisanlar";
 			this.cmbCalisanlar.Size = new System.Drawing.Size(240, 28);
-			this.cmbCalisanlar.TabIndex = 1;
+			this.cmbCalisanlar.TabIndex = 2;
 			// 
 			// label8
 			// 
@@ -318,7 +318,7 @@
 			this.cmbUrunler.Location = new System.Drawing.Point(137, 29);
 			this.cmbUrunler.Name = "cmbUrunler";
 			this.cmbUrunler.Size = new System.Drawing.Size(240, 28);
-			this.cmbUrunler.TabIndex = 1;
+			this.cmbUrunler.TabIndex = 0;
 			// 
 			// label6
 			// 

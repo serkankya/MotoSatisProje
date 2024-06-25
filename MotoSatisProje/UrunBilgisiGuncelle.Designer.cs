@@ -51,7 +51,7 @@
 			this.cmbToptanci.Location = new System.Drawing.Point(111, 301);
 			this.cmbToptanci.Name = "cmbToptanci";
 			this.cmbToptanci.Size = new System.Drawing.Size(270, 28);
-			this.cmbToptanci.TabIndex = 13;
+			this.cmbToptanci.TabIndex = 4;
 			// 
 			// numStok
 			// 
@@ -59,7 +59,7 @@
 			this.numStok.Location = new System.Drawing.Point(111, 258);
 			this.numStok.Name = "numStok";
 			this.numStok.Size = new System.Drawing.Size(270, 26);
-			this.numStok.TabIndex = 11;
+			this.numStok.TabIndex = 3;
 			// 
 			// numFiyat
 			// 
@@ -73,7 +73,7 @@
             0});
 			this.numFiyat.Name = "numFiyat";
 			this.numFiyat.Size = new System.Drawing.Size(270, 26);
-			this.numFiyat.TabIndex = 12;
+			this.numFiyat.TabIndex = 2;
 			// 
 			// label5
 			// 
@@ -102,7 +102,7 @@
 			this.txtAciklama.Multiline = true;
 			this.txtAciklama.Name = "txtAciklama";
 			this.txtAciklama.Size = new System.Drawing.Size(270, 130);
-			this.txtAciklama.TabIndex = 9;
+			this.txtAciklama.TabIndex = 1;
 			// 
 			// label3
 			// 
@@ -130,7 +130,7 @@
 			this.txtUrunAdi.Location = new System.Drawing.Point(111, 22);
 			this.txtUrunAdi.Name = "txtUrunAdi";
 			this.txtUrunAdi.Size = new System.Drawing.Size(270, 26);
-			this.txtUrunAdi.TabIndex = 10;
+			this.txtUrunAdi.TabIndex = 0;
 			// 
 			// label1
 			// 
@@ -149,7 +149,7 @@
 			this.btnGuncelle.Location = new System.Drawing.Point(111, 344);
 			this.btnGuncelle.Name = "btnGuncelle";
 			this.btnGuncelle.Size = new System.Drawing.Size(270, 34);
-			this.btnGuncelle.TabIndex = 14;
+			this.btnGuncelle.TabIndex = 5;
 			this.btnGuncelle.Text = "Güncelle";
 			this.btnGuncelle.UseVisualStyleBackColor = false;
 			this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
@@ -161,7 +161,7 @@
 			this.btnIptalEt.Location = new System.Drawing.Point(111, 384);
 			this.btnIptalEt.Name = "btnIptalEt";
 			this.btnIptalEt.Size = new System.Drawing.Size(270, 34);
-			this.btnIptalEt.TabIndex = 15;
+			this.btnIptalEt.TabIndex = 6;
 			this.btnIptalEt.Text = "İptal Et";
 			this.btnIptalEt.UseVisualStyleBackColor = false;
 			this.btnIptalEt.Click += new System.EventHandler(this.btnIptalEt_Click);

@@ -9,7 +9,7 @@ namespace MotoSatisProje
 {
 	public static class SqlBaglanti
 	{
-		private static string BaglantiAdresi = "Data Source=SERKANKAYA;Initial Catalog=MotoSatisDeneme;Integrated Security=True;MultipleActiveResultSets=True";
+		private static string BaglantiAdresi = "Data Source=SQLEXPRESS;Initial Catalog=MotoSiparis;Integrated Security=True;MultipleActiveResultSets=True";
 
 		public static SqlConnection Baglan()
 		{

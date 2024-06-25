@@ -67,7 +67,7 @@ namespace MotoSatisProje
 			{
 				sql.Open();
 
-				string sorgu = "SELECT * FROM Urunler WHERE UrunAd LIKE @urunAd AND Durum = 1";
+				string sorgu = "SELECT * FROM Urunler WHERE UrunAdi LIKE @urunAd AND Durum = 1";
 
 				using (SqlCommand komut = new SqlCommand(sorgu, sql))
 				{
@@ -95,7 +95,7 @@ namespace MotoSatisProje
 				{
 					sql.Open();
 
-					string sorgu = "INSERT INTO Urunler (ToptanciId,Fiyat,Aciklama,Stok,UrunAd) VALUES (@toptanciId,@fiyat,@aciklama,@stok,@urunAd)";
+					string sorgu = "INSERT INTO Urunler (ToptanciId,Fiyat,Aciklama,Stok,UrunAdi) VALUES (@toptanciId,@fiyat,@aciklama,@stok,@urunAd)";
 
 					using (SqlCommand komut = new SqlCommand(sorgu, sql))
 					{

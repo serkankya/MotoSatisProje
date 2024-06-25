@@ -55,7 +55,7 @@ namespace MotoSatisProje
 				{
 					sql.Open();
 
-					string sorgu = "UPDATE Calisanlar SET Pozisyon = @pozisyon,Ad=@ad,Soyad=@ad,Telefon=@telefon,Mail=@mail WHERE CalisanId = @calisanId";
+					string sorgu = "UPDATE Calisanlar SET Pozisyon = @pozisyon,Ad=@ad,Soyad=@soyad,Telefon=@telefon,Mail=@mail WHERE CalisanId = @calisanId";
 
 					using (SqlCommand komut = new SqlCommand(sorgu, sql))
 					{

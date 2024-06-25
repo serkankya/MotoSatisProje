@@ -65,7 +65,7 @@
 			this.txtAra.Location = new System.Drawing.Point(234, 23);
 			this.txtAra.Name = "txtAra";
 			this.txtAra.Size = new System.Drawing.Size(290, 26);
-			this.txtAra.TabIndex = 2;
+			this.txtAra.TabIndex = 0;
 			this.txtAra.TextChanged += new System.EventHandler(this.txtAra_TextChanged);
 			// 
 			// btnTamamla
@@ -75,7 +75,7 @@
 			this.btnTamamla.Location = new System.Drawing.Point(187, 259);
 			this.btnTamamla.Name = "btnTamamla";
 			this.btnTamamla.Size = new System.Drawing.Size(198, 38);
-			this.btnTamamla.TabIndex = 3;
+			this.btnTamamla.TabIndex = 0;
 			this.btnTamamla.Text = "Tamamla";
 			this.btnTamamla.UseVisualStyleBackColor = false;
 			this.btnTamamla.Click += new System.EventHandler(this.btnTamamla_Click);
@@ -97,7 +97,7 @@
 			this.btnVerileriGuncelle.Location = new System.Drawing.Point(187, 303);
 			this.btnVerileriGuncelle.Name = "btnVerileriGuncelle";
 			this.btnVerileriGuncelle.Size = new System.Drawing.Size(198, 39);
-			this.btnVerileriGuncelle.TabIndex = 5;
+			this.btnVerileriGuncelle.TabIndex = 1;
 			this.btnVerileriGuncelle.Text = "Verileri Güncelle";
 			this.btnVerileriGuncelle.UseVisualStyleBackColor = false;
 			this.btnVerileriGuncelle.Click += new System.EventHandler(this.btnVerileriGuncelle_Click);

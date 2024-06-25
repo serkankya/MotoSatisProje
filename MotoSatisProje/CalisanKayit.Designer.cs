@@ -64,7 +64,7 @@
 			this.txtAd.Location = new System.Drawing.Point(102, 45);
 			this.txtAd.Name = "txtAd";
 			this.txtAd.Size = new System.Drawing.Size(242, 27);
-			this.txtAd.TabIndex = 1;
+			this.txtAd.TabIndex = 0;
 			// 
 			// label2
 			// 
@@ -110,7 +110,7 @@
 			this.txtTelefon.Location = new System.Drawing.Point(102, 157);
 			this.txtTelefon.Name = "txtTelefon";
 			this.txtTelefon.Size = new System.Drawing.Size(242, 27);
-			this.txtTelefon.TabIndex = 1;
+			this.txtTelefon.TabIndex = 3;
 			// 
 			// label5
 			// 
@@ -128,7 +128,7 @@
 			this.txtMail.Location = new System.Drawing.Point(102, 197);
 			this.txtMail.Name = "txtMail";
 			this.txtMail.Size = new System.Drawing.Size(242, 27);
-			this.txtMail.TabIndex = 1;
+			this.txtMail.TabIndex = 4;
 			// 
 			// btnKaydet
 			// 
@@ -137,7 +137,7 @@
 			this.btnKaydet.Location = new System.Drawing.Point(102, 241);
 			this.btnKaydet.Name = "btnKaydet";
 			this.btnKaydet.Size = new System.Drawing.Size(242, 41);
-			this.btnKaydet.TabIndex = 2;
+			this.btnKaydet.TabIndex = 5;
 			this.btnKaydet.Text = "Kaydet";
 			this.btnKaydet.UseVisualStyleBackColor = false;
 			this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
@@ -149,7 +149,7 @@
 			this.btnGuncelle.Location = new System.Drawing.Point(102, 288);
 			this.btnGuncelle.Name = "btnGuncelle";
 			this.btnGuncelle.Size = new System.Drawing.Size(242, 41);
-			this.btnGuncelle.TabIndex = 3;
+			this.btnGuncelle.TabIndex = 6;
 			this.btnGuncelle.Text = "Güncelle";
 			this.btnGuncelle.UseVisualStyleBackColor = false;
 			this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
@@ -161,7 +161,7 @@
 			this.btnSil.Location = new System.Drawing.Point(102, 335);
 			this.btnSil.Name = "btnSil";
 			this.btnSil.Size = new System.Drawing.Size(242, 41);
-			this.btnSil.TabIndex = 4;
+			this.btnSil.TabIndex = 7;
 			this.btnSil.Text = "Sil";
 			this.btnSil.UseVisualStyleBackColor = false;
 			this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
@@ -191,7 +191,7 @@
 			this.txtAranacakKelime.Location = new System.Drawing.Point(550, 12);
 			this.txtAranacakKelime.Name = "txtAranacakKelime";
 			this.txtAranacakKelime.Size = new System.Drawing.Size(247, 27);
-			this.txtAranacakKelime.TabIndex = 1;
+			this.txtAranacakKelime.TabIndex = 8;
 			this.txtAranacakKelime.TextChanged += new System.EventHandler(this.txtAranacakKelime_TextChanged);
 			// 
 			// cmbPozisyon
@@ -206,7 +206,7 @@
 			this.cmbPozisyon.Location = new System.Drawing.Point(102, 117);
 			this.cmbPozisyon.Name = "cmbPozisyon";
 			this.cmbPozisyon.Size = new System.Drawing.Size(242, 28);
-			this.cmbPozisyon.TabIndex = 6;
+			this.cmbPozisyon.TabIndex = 2;
 			// 
 			// btnAnaSayfa
 			// 
@@ -214,7 +214,7 @@
 			this.btnAnaSayfa.Location = new System.Drawing.Point(12, 3);
 			this.btnAnaSayfa.Name = "btnAnaSayfa";
 			this.btnAnaSayfa.Size = new System.Drawing.Size(157, 28);
-			this.btnAnaSayfa.TabIndex = 7;
+			this.btnAnaSayfa.TabIndex = 9;
 			this.btnAnaSayfa.Text = "Ana Sayfaya Dön";
 			this.btnAnaSayfa.UseVisualStyleBackColor = true;
 			this.btnAnaSayfa.Click += new System.EventHandler(this.btnAnaSayfa_Click);
